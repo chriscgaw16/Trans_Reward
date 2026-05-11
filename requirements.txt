@@ -9,6 +9,7 @@ scikit-learn
 seaborn
 pandas
 nbconvert
+flash_attn
 transformers==4.39.3,<5.0.0
 datasets>=2.19.0
 torch>=2.2.0
