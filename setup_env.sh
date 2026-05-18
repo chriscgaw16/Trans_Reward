@@ -11,7 +11,8 @@ echo "=== Upgrading pip ==="
 pip install --upgrade pip
 
 echo "=== Installing project requirements ==="
-pip install -r --no-build-isolation --no-cache-dir requirements.txt
+pip install -r requirements.txt
+pip install --no-build-isolation --no-cache-dir flash_attn
 
 echo "=== Environment setup complete ==="
 echo "To activate later:"
