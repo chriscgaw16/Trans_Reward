@@ -11,8 +11,9 @@ echo "=== Upgrading pip ==="
 pip install --upgrade pip
 
 echo "=== Installing project requirements ==="
+pip cache purge
 pip install -r requirements.txt
-pip install ninja packaging
+pip install ninja packaging wheel
 pip install --no-build-isolation --no-cache-dir flash_attn
 
 echo "=== Environment setup complete ==="
