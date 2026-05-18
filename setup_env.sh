@@ -12,6 +12,7 @@ pip install --upgrade pip
 
 echo "=== Installing project requirements ==="
 pip install -r requirements.txt
+pip install ninja packaging
 pip install --no-build-isolation --no-cache-dir flash_attn
 
 echo "=== Environment setup complete ==="
