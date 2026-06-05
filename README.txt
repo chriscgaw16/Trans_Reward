@@ -1,1 +1,1 @@
-Transparent Reward Model Project
+# Reward Modelling via Principle Scorecard

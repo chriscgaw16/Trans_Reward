@@ -1,0 +1,14 @@
+{
+  "query": "Please answer correctly the following question related to the paragraph below.   Which city, Seattle or Jacksonville, will contribute more to global warming?  Seattle produces a large amount of their electricity by burning fossil fuels due to the large presence of natural coal in the state. Jacksonville, on the other hand, has decreased their usage of fossil fuels used to produce electricity to low levels due to recent policy changes enacted by their state's government.  Hint: In the U.S., the majority of electricity is produced by burning coal or other fossil fuels. This causes air pollution, acid rain, and global warming. Fossil fuels are also limited and may eventually run out. Like fossil fuels, radioactive elements are limited. In fact, they are relatively rare, so they could run out sooner rather than later. On the other hand, nuclear fission does not release air pollution or cause the other environmental problems associated with burning fossil fuels. This is the major advantage of using nuclear fission as a source of energy.\nA:",
+  "responses": [
+    "Seattle",
+    "None"
+  ],
+  "judgement": "Specific Criteria: \n1. Instruction Adherence: The response should directly answer which city contributes more to global warming based on the given information.\n2. Usefulness: The response should provide a clear and accurate explanation of why one city contributes more to global warming than the other.\n3. Level of Detail: The response should include details about the sources of electricity production in both cities.\n4. Relevance: The response should be highly relevant to the question, focusing on the main points related to the topic of global warming.\n\nAnalysis:\n- Response 1: \"Seattle\" is a direct answer to the question but lacks any explanation or details. It partially adheres to the instruction by providing a city name but does not fully address the issue of global warming contribution, making it partly useful. It is basic in detail and relevant only in that it mentions a city.\n- Response 2: \"None\" does not adhere to any of the instructions or provide any information, making it useless in terms of instruction adherence and relevance.\n\nScores: \\boxed{6,1}",
+  "principles": [
+    "Instruction Adherence",
+    "Usefulness",
+    "Level of Detail",
+    "Relevance"
+  ]
+}

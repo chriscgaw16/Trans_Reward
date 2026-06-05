@@ -8,8 +8,8 @@ GPU_ID=5
 
 export CUDA_VISIBLE_DEVICES=$GPU_ID
 
-NOTEBOOK="train.ipynb"
-OUTPUT="train_output.ipynb"
+NOTEBOOK="$1.ipynb"
+OUTPUT="notebook_output.ipynb"
 
 echo "=== Running notebook ==="
 jupyter nbconvert \
