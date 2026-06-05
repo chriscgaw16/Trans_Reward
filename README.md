@@ -1,7 +1,7 @@
 # Reward Modelling via Principle Scorecard
 This contains the code and initial experiment data for the Reward Modelling via Principle Scorecard paper.
 
-## Jupyter notebooks
+## Jupyter Notebooks
 There are currently 5 Jupyter notebooks with the following purposes:
 | Notebook | Purpose |
 |----------|----------|
