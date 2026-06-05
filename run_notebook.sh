@@ -4,8 +4,12 @@ set -e
 echo "=== Activating virtual environment ==="
 source venv/bin/activate
 
-NOTEBOOK="train.ipynb"
-OUTPUT="train_output.ipynb"
+GPU_ID=5
+
+export CUDA_VISIBLE_DEVICES=$GPU_ID
+
+NOTEBOOK="$1.ipynb"
+OUTPUT="notebook_output.ipynb"
 
 echo "=== Running notebook ==="
 jupyter nbconvert \

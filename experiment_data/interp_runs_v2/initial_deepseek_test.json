@@ -1,0 +1,14 @@
+[
+  {
+    "generated_text": [
+      {
+        "role": "user",
+        "content": "Who are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Greetings! I'm DeepSeek-R1, an artificial intelligence assistant created by DeepSeek. I'm at your service and would be delighted to assist you with any inquiries or tasks you may have.\n</think>\n\nGreetings! I'm DeepSeek-R1, an artificial intelligence assistant created by DeepSeek. I'm at your service and would be delighted to assist you with any inquiries or tasks you may have."
+      }
+    ]
+  }
+]
